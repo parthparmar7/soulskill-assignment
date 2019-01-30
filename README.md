@@ -13,4 +13,8 @@ Elements of the Form:
 4.    Job title
 5.    Resume upload
 
+To run the project:
 
+npm install
+
+node index.js
