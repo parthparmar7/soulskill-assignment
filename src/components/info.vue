@@ -63,7 +63,8 @@ export default {
             let uri= 'http://localhost:4000/add';
             this.axios.post(uri,this.item).then((response)=>{
               console.log(response);
-              alert("Successfully written in the database")
+              alert("Successfully written in the database");
+              this.$data.item = ""
             })
           }
         })
