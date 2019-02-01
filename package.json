@@ -29,6 +29,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "mongoose": "^5.4.8",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "vee-validate": "^2.1.7"
   }
 }

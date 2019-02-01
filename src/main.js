@@ -4,8 +4,9 @@ import info from './components/info.vue'
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
 import axios from 'axios';
+import VeeValidate from "vee-validate";
 
-
+Vue.use(VeeValidate);
 Vue.use(VueAxios, axios);
 Vue.use(VueRouter);
 
