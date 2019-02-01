@@ -19,7 +19,7 @@ Elements of the Form:
 npm install
 #installs the dependancies
 
-npm install webpack-dev-server
+npm i -D webpack-cli
 #used for running the client side code
 
 npm start
