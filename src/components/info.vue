@@ -64,7 +64,9 @@ export default {
             this.axios.post(uri,this.item).then((response)=>{
               console.log(response);
               alert("Successfully written in the database");
-              
+              this.item.name = this.item.email = this.item.title= this.item.number= '';
+      
+              e.target.reset();
             })
           }
         })
