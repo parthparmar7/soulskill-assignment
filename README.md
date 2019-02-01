@@ -4,7 +4,7 @@ This assignment was given for soulskill screening process.
 
 Objective: Create a web form to collect basic information from a user and store in a database
 
-Using MongoDB, Nodejs and Vuejs.
+Using MongoDB, Nodejs and Vuejs(webpack).
 The validations are performed by vee-validate package.
 
 Elements of the Form:
